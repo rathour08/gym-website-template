@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahils Fittness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        font-family: 'Baloo 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url("img.jpg");
+        background-size:100%;
+        background-repeat: no-repeat;
+    
+
+    }
+    .left{
+        display: inline-block;
+        
+        position: absolute;
+        left: 60px;
+        top: 20px;
+
+
+
+    }
+    .left img{
+        width: 100px;
+
+    }
+    .mid{
+         
+         display: block;
+         width: 60%;
+         margin:  20px auto;
+
+
+    }
+    .right{
+         
+         display: inline-block;
+         position: absolute;
+         right: 0px;
+         top: 20px;
+
+    }
+    .navbar li{
+        list-style: none;
+        display: inline-block ;
+        font-size: 25px;
+        
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: rgb(27, 172, 172);
+
+
+    }
+    .left div{
+        font-size: 11px;
+        text-align: center;
+        line-height: 10px;
+
+    }
+    .container .btn{
+        display: block;
+        width: 65%;
+        margin: 2px auto;
+
+    }
+
+    .btn{
+        margin: 0px 10px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        padding: 6px 2px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+
+
+    }
+    .btn:hover{
+        background-color: rgb(28, 179, 179);
+
+    }
+    .container{
+        
+        margin: 77px 44px;
+        padding: 70px 40px;
+        width: 33%;
+
+        border-radius: 20px;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        margin:5px auto;
+        padding: 5px;
+        width: 250px;
+        border: 2px solid black;
+        font-size: 20px;
+        font-family: 'Baloo 2', cursive;
+        
+    }
+    .container h1{
+        font-size: 26px;
+        text-align: center;
+
+    }
+
+
+
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="gymlogo.png" alt="">
+            <div class="leftname">
+                Sahil Fitness
+            </div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            
+
+        </div>
+        <div class="right">
+            <button class="btn">Join Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Shimla Now</h1>
+        <form action="">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality ">
+
+            </div>
+            <button class="btn">Submit</button>
+
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
